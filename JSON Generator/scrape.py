@@ -68,10 +68,10 @@ try:
         "Methods": methods
     }
 
-    with open("{}.json".format(title), "w") as f:
+    with open("website.json", "w") as f:
         json.dump(data, f, indent = 4)
 
-    print("Done, saved to {}.json".format(title))
+    print("Done, saved to website.json")
 except:
     print("There was a problem scraping that URL, was it a javadoc?")
 
