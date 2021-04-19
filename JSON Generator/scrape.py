@@ -62,7 +62,6 @@ try:
     data = {
         "Title": title,
         "Description": description,
-        "Javadoc-Link": "<a href='{}' target='_blank'>Visit the JavaDoc page for {}</a>".format(url, title),
         "Constructors": constructors,
         "Fields": fields,
         "Methods": methods
