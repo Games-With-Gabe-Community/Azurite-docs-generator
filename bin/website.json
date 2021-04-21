@@ -1,0 +1,28 @@
+{
+    "Title": "DebugRenderBatch",
+    "Description": "[SCRAPER:WARNING] Could not find body > main > div.contentContainer > div.description > ul > li > div",
+    "Constructors": [
+        [
+            "DebugRenderBatch(int maxBatchSize, int zIndex)",
+            ""
+        ]
+    ],
+    "Fields": [],
+    "Methods": [
+        [
+            "boolean",
+            "addLine(DebugLine line)",
+            ""
+        ],
+        [
+            "protected void",
+            "loadVertexProperties(int index, int offset)",
+            "Load up a primitive to the data array"
+        ],
+        [
+            "void",
+            "updateBuffer()",
+            "Update the buffer on the GPU but only if it is necessary"
+        ]
+    ]
+}

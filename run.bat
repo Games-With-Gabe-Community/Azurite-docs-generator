@@ -1,6 +1,6 @@
 @echo off
 
-python scrape.py %1
+python .\bin\scrape.py %1
 
-AzuriteGenerator
+.\bin\win-x64\AzuriteGenerator.exe
 PAUSE
