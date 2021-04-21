@@ -82,8 +82,8 @@ data = {
     "Methods": methods
 }
 
-with open("website.json", "w") as f:
+with open("linux-x64/website.json", "w") as f:
     json.dump(data, f, indent = 4)
 
 print(Fore.GREEN + "[SCRAPER:SUCCESS] Done, saved to website.json")
-
+print(Style.RESET_ALL)

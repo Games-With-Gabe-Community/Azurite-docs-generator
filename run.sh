@@ -1,9 +1,8 @@
 #!/bin/bash
 
+# Run the web scraper from bin
 cd ./bin
 python ./scrape.py $1
-cd ..
 
-cd ./bin/linux-x64
-./AzuriteGenerator
-cd ../..
+./linux-x64/AzuriteGenerator test
+cd ..
